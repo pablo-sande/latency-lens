@@ -8,21 +8,20 @@ This document details the tasks for developing **LatencyLens**, a web tool for a
 
 > This phase establishes the foundation for technical development. Must be completed before starting backend or frontend.
 
-- [ ] Create Git repository (GitHub or GitLab)
-- [ ] Add initial documentation:
-  - [ ] `README.md` with project overview
-  - [ ] `docs/SRS.md` with requirements document (Software Requirements Specification)
-  - [ ] `LICENSE` (MIT recommended)
-- [ ] Set up initial folder structure:
+- [x] Create Git repository (GitHub or GitLab)
+- [x] Add initial documentation:
+  - [x] `README.md` with project overview
+  - [x] `docs/SRS.md` with requirements document (Software Requirements Specification)
+- [x] Set up initial folder structure:
 /frontend
 /backend
 /docs
 /samples
-- [ ] Initialize development environment:
-- [ ] Backend with Go (`go mod init`)
-- [ ] Frontend with Next.js (`npx create-next-app@latest`)
-- [ ] Docker for PostgreSQL (see Phase 5)
-- [ ] Create `.env` file for local configuration
+- [x] Initialize development environment:
+  - [x] Backend with Go (`go mod init`)
+  - [x] Frontend with Next.js (`npx create-next-app@latest`)
+- [x] Docker for PostgreSQL (see Phase 5)
+- [x] Create `.env` file for local configuration
 
 ---
 
